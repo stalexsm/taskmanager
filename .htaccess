@@ -1,0 +1,16 @@
+addDefaultCharset utf8
+RewriteEngine On
+
+# Удалять последний слеш
+#RewriteBase /
+#RewriteCond %{HTTP_HOST} (.*)
+#RewriteCond %{REQUEST_URI} /$ [NC]
+#RewriteRule ^(.*)(/)$ $1 [L,R=301]
+
+
+Options +FollowSymLinks
+Options -Indexes
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php

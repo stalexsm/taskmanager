@@ -1,0 +1,172 @@
+a:hover {
+	color: red;
+}
+
+.container {
+
+	border: 1px solid #CCC;
+	width: 1200px;
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#header {
+
+	background: rgb(170, 193, 235);
+	background: -moz-linear-gradient(90deg, rgb(170, 193, 235) 17%, rgb(198, 211, 224) 71%);
+	background: -webkit-linear-gradient(90deg, rgb(170, 193, 235) 17%, rgb(198, 211, 224) 71%);
+	background: -o-linear-gradient(90deg, rgb(170, 193, 235) 17%, rgb(198, 211, 224) 71%);
+	background: -ms-linear-gradient(90deg, rgb(170, 193, 235) 17%, rgb(198, 211, 224) 71%);
+	background: linear-gradient(180deg, rgb(170, 193, 235) 17%, rgb(198, 211, 224) 71%);
+	height: 120px;
+}
+
+.head-title {
+    font-size: 115%;
+    padding: 15px;
+}
+
+#footer {
+	background: #CCC;
+}
+
+#nav {
+	margin: 5px;
+}
+
+#divImg {
+	height: 64px;
+}
+
+#content {
+	background: #E6E6FA;
+}
+
+#content h3 a {
+	color: #000;
+}
+
+#content h3 a:hover {
+	color: red;
+}
+
+#newArticle {
+	margin: 15px 0 15px 0;
+}
+
+#pagination {
+	margin-left: 42%;
+}
+
+#back {
+	margin: 10px 0 0 5px;
+}
+
+.formAuth {
+	margin: 10px 0 10px 35%;
+}
+
+.helloAuth {
+    float: right;
+	margin-top: -38px;
+}
+
+#loginForm input[type='text'] {
+	width: 300px;
+}
+
+#loginForm input[type='password'] {
+	width: 300px;
+}
+
+
+/** Авторизация **/
+
+.b-auth {
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    width: 50%;
+    padding: 25px 25px 15px 15px;
+    margin: 20px 25% 35px;
+}
+
+.m-reg {
+    height: 100px !important;
+    width: 300px;
+    padding: 15px 15px 0px;
+}
+
+.error {
+    color: red;
+    font-size: 90%;
+    font-weight: normal;
+}
+
+.alert-text {
+    color: red;
+    font-size: 110%;
+}
+
+.failComment {
+    display: none;
+}
+
+.table a {
+	color: #048CAD;
+}
+
+.table a:hover,
+.table a:before,
+.table a:after {
+	color: #ff0000;
+}
+.hr {
+	border-color: #666 !important;
+}
+
+.button-delete {
+	margin-left: 35px;
+}
+
+.project-sort
+{
+	float: right;
+	margin: -35px 25px 0 0
+}
+.project-sort  a {
+	color: #666;
+}
+
+.project-sort a:hover,
+.project-sort a:before,
+.project-sort a:after
+{
+	color: red;
+}
+
+.filter-content
+{
+	background-color: #e6e6fa;
+	padding: 0 20px 15px;
+}
+.filter-table {
+	margin: -35px 0 0 880px;
+	float: left;
+}
+
+.filter-table a 
+{
+	color: #000;
+}
+
+.filter-table a:hover,
+.filter-table a:before,
+.filter-table a:after
+{
+	color: red;
+}
